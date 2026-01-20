@@ -1,3 +1,4 @@
+print("[SHIKO] main.lua loaded!")
 -- SHIKO SCRIPT | Main + Menu
 
 -- Services
@@ -137,5 +138,3 @@ UserInputService.InputBegan:Connect(function(input, gp)
     if input.KeyCode == MENU_KEY then
         frame.Visible = not frame.Visible
     end
-end)
-
